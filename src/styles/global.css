@@ -8,8 +8,8 @@
 .body_index { 
     height: 100vh;
     width: 100vw;
-    max-width: calc(100vw - 23vw);
-    margin-left: 22.5vw;
+    max-width: calc(100vw - 22.7vw);
+    margin-left: 22.7vw;
     background-color: var(--background-gray);
 }
 
