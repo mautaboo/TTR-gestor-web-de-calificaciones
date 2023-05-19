@@ -44,7 +44,7 @@ function Navbar({visible, show, page}) {
                             <div className='icones shadow-box'> <BiSearchAlt/></div> 
                             <span>Consulta </span>
                         </NavLink>
-                        <NavLink className={page==="Statitics" ? "nav-link-selected" : "nav-link" }>
+                        <NavLink className={page==="Estadisticas" ? "nav-link-selected" : "nav-link" }>
                             <div className='icones shadow-box'> <GoGraph/></div> 
                             <span>Estadísiticas</span> 
                         </NavLink>
