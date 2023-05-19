@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const HomeContainer = () =>{
     const [navVisible, showNavbar] = useState(true);
-    const page = "home";
+    const page = "Dashboard";
 
 
     return(

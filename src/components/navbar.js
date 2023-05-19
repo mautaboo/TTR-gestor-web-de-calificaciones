@@ -36,27 +36,27 @@ function Navbar({visible, show, page}) {
                     />
                     </NavLink>
                     <div className="links nav-top">
-                        <NavLink className={page==="home" ? "nav-link-selected" : "nav-link" }>
+                        <NavLink className={page==="Dashboard" ? "nav-link-selected" : "nav-link" }>
                             <div className='icones shadow-box'> <AiFillHome/></div> 
                             <span>Inicio</span>
                         </NavLink>
-                        <NavLink className={page==="consulta" ? "nav-link-selected" : "nav-link" }>
+                        <NavLink className={page==="Consulta" ? "nav-link-selected" : "nav-link" }>
                             <div className='icones shadow-box'> <BiSearchAlt/></div> 
                             <span>Consulta </span>
                         </NavLink>
-                        <NavLink className={page==="statitics" ? "nav-link-selected" : "nav-link" }>
+                        <NavLink className={page==="Statitics" ? "nav-link-selected" : "nav-link" }>
                             <div className='icones shadow-box'> <GoGraph/></div> 
                             <span>Estadísiticas</span> 
                         </NavLink>
-                        <NavLink className={page==="manual" ? "nav-link-selected" : "nav-link" }>                            
+                        <NavLink className={page==="Manual" ? "nav-link-selected" : "nav-link" }>                            
                             <div className='icones shadow-box'> <BiEdit/></div> 
                             <span>Ingreso manual</span> 
                         </NavLink>
-                        <NavLink className={page==="excel" ? "nav-link-selected" : "nav-link" }>                            
+                        <NavLink className={page==="Excel" ? "nav-link-selected" : "nav-link" }>                            
                             <div className='icones shadow-box'> <SiMicrosoftexcel/></div> 
                             <span>Cargar información</span> 
                         </NavLink>
-                        <NavLink className={page==="solicitud" ? "nav-link-selected" : "nav-link" }>                            
+                        <NavLink className={page==="Solicitudes" ? "nav-link-selected" : "nav-link" }>                            
                             <div className='icones shadow-box'> <AiOutlineReconciliation/></div> 
                             <span>Solicitudes</span> 
                         </NavLink>

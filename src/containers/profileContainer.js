@@ -4,11 +4,12 @@ import { useState } from 'react';
 
 const ProfileContainer = () =>{
     const [navVisible, showNavbar] = useState(true);
-    const page = "home";
+    const page2 = "Perfil";
+    const page = "Dashboard";
 
 
     return(
-        <Profile visible={ navVisible } show={ showNavbar } page = { page }/>
+        <Profile visible={ navVisible } show={ showNavbar } page = { page } page2 = { page2 } />
     )
 };
 

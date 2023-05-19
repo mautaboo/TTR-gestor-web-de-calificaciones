@@ -1,41 +1,17 @@
 import React from 'react';
 import '../styles/profile.css';
-import {FaUserCircle} from 'react-icons/fa';
-import {BsGearFill, BsFillBellFill} from 'react-icons/bs';
-import {AiFillHome, AiFillCamera} from 'react-icons/ai';
+import {AiFillCamera} from 'react-icons/ai';
 import Navbar from '../components/navbar';
+import Header from '../components/header';
 import IMG from "../images/descarga.png";
 
 
-const Profile = ({visible, show, page}) => (
+const Profile = ({visible, show, page, page2}) => (
     <>
         <Navbar visible={visible} show={show} page={page} /> 
         <div className='body_index'>
             <div className="main-container">
-                <div className="header">
-                    <div className="route">
-                        <div className="route-text-up">
-                            <div className="route-icon">
-                                <AiFillHome/>
-                            </div>
-                             / Dashboard
-                        </div>
-                        <div className="route-text-down">Perfil </div>
-                    </div>
-                    <div className="corner-icons">
-                        <div className="route-icons">
-                            <FaUserCircle/>
-                        </div>
-                    </div>
-                    <div className="corner-icons">
-                        <div className="route-icons">
-                            <BsGearFill/>
-                        </div>
-                        <div className="route-icons">
-                            <BsFillBellFill/>
-                        </div>
-                    </div>
-                </div>
+                <Header page={page} page2={page2}/>
                 <div className="p-content">
                     <div className="p-main">
                         <div className='p-cont-foto'>

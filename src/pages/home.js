@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/home.css';
-import {FaUserCircle} from 'react-icons/fa';
-import {BsGearFill, BsFillBellFill, BsFileEarmarkPersonFill} from 'react-icons/bs';
-import {AiFillHome, AiOutlineReconciliation} from 'react-icons/ai';
+import {BsFileEarmarkPersonFill} from 'react-icons/bs';
+import {AiOutlineReconciliation} from 'react-icons/ai';
 import {RiFileUploadLine} from 'react-icons/ri';
 import Navbar from '../components/navbar';
+import Header from '../components/header';
 import IMG1 from "../images/descarga2.png";
 import IMG2 from "../images/desgarga3.jpg";
 
@@ -14,30 +14,7 @@ const Home = ({visible, show, page}) => (
         <Navbar visible={visible} show={show} page={page} /> 
         <div className='body_index'>
             <div className="main-container">
-                <div className="header">
-                    <div className="route">
-                        <div className="route-text-up">
-                            <div className="route-icon">
-                                <AiFillHome/>
-                            </div>
-                             / Dashboard
-                        </div>
-                        <div className="route-text-down">Dashboard </div>
-                    </div>
-                    <div className="corner-icons">
-                        <div className="route-icons">
-                            <FaUserCircle/>
-                        </div>
-                    </div>
-                    <div className="corner-icons">
-                        <div className="route-icons">
-                            <BsGearFill/>
-                        </div>
-                        <div className="route-icons">
-                            <BsFillBellFill/>
-                        </div>
-                    </div>
-                </div>
+                <Header page={page} page2={page}/>
                 <div className="content">
                     <div className="boxes">
                         <div className='box-t1 box box-m1 shadow-box'>
