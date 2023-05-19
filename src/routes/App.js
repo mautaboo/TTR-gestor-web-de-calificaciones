@@ -4,6 +4,7 @@ import HomeContainer from '../containers/homeContainer';
 import ProfileContainer from '../containers/profileContainer';
 import SolicitudesContainer from '../containers/solicitudesContainer';
 import StatisticsContainer from '../containers/statisticsContainer';
+import LoginContainer from '../containers/loginContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/profile" element={<ProfileContainer />}/>
           <Route exact path="/solicitudes" element={<SolicitudesContainer />}/>
           <Route exact path="/estadisticas" element={<StatisticsContainer />}/>
+          <Route exact path="/login" element={<LoginContainer />}/>
         </Routes>
       </Router>
   );
