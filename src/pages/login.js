@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/login.css';
-import IMG from "../images/descarga.png";
+import IMG from "../images/logo-no-background.png";
 
 
 const Login = () => (

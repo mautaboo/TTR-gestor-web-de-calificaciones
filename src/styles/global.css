@@ -3,6 +3,8 @@
     --background-white: #fff;
     --text-gray: #666;
     --text-dark: #333;
+    --logo-color-dark: #4b0683;
+    --logo-color-light: #a781d6;
     overflow-x: hidden;
 }
 .body_index { 
