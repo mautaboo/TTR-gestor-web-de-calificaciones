@@ -23,7 +23,7 @@
     position: absolute;
 }
 .boton-perfil{
-    background-color: #9e0056;
+    background-color: var(--logo-color-dark);
     border-radius: 100px;
     min-width: 45px;
     min-height: 45px;
@@ -79,7 +79,7 @@
     font-size: 1.2em;
     font-weight: 600;
     color: #fff;
-    background-color: #e2017b;
+    background-color: var(--logo-color-dark);
 }
 
 

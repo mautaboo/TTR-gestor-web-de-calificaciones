@@ -60,9 +60,9 @@
   align-items: center;
   justify-content: center;
 }
-.icones {
-  background: rgb(28,90,255);
-  background: linear-gradient(342deg, rgba(28,90,255,1) 0%, rgba(73,205,254,1) 100%);
+.h-icones {
+  background: var(--logo-color-dark);
+  background: linear-gradient(342deg, var(--logo-color-dark) 0%, var(--logo-color-light) 100%);
   border-radius: 10px;
   display: flex;
   padding: 0;
@@ -103,8 +103,8 @@
   justify-content: center;
 }
 .icones-t2{
-  background: rgb(32,87,255);
-  background: linear-gradient(342deg, rgba(32,87,255,1) 0%, rgba(32,148,255,1) 100%);
+  background: var(--logo-color-dark);
+  	background: linear-gradient(342deg, var(--logo-color-dark) 0%, var(--logo-color-light) 100%);
   border-radius: 10px;
   display: flex;
   padding: 0;

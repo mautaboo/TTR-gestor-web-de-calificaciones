@@ -20,7 +20,7 @@ const Home = ({visible, show, page}) => (
                         <div className='box-t1 box box-m1 shadow-box'>
                             <div className='title-t1'>Solicitudes nuevas</div>
                             <div className='icon-t1'>
-                            <div className='icones'> <BsFileEarmarkPersonFill/></div> 
+                            <div className='h-icones'> <BsFileEarmarkPersonFill/></div> 
                             </div>
                             <div className='content-t1'>
                                 <div className='num-t1'>6</div>
@@ -30,7 +30,7 @@ const Home = ({visible, show, page}) => (
                         <div className='box-t1 box box-m2 shadow-box'>
                             <div className='title-t1'>Nuevos registros</div>
                             <div className='icon-t1'>
-                                <div className='icones'> <AiOutlineReconciliation/></div> 
+                                <div className='h-icones'> <AiOutlineReconciliation/></div> 
                             </div>
                             <div className='content-t1'>
                                 <div className='num-t1'>156</div>
